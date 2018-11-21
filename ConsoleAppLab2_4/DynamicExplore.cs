@@ -17,9 +17,12 @@ namespace ConsoleAppLab2_4
         public void Run()
         {
             dynamic d = long.MaxValue;
-            checked {
+            int bigint = (int)d;
+            /*
+             checked {
                 int bigint = (int)d;
             }
+             */
         }
     }
 }

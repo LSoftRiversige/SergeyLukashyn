@@ -7,15 +7,7 @@ namespace ConsoleAppLab2_4
         static void Main(string[] args)
         {
             Run();
-
-           //try
-           //{
-           //    Run();
-           //}
-           //catch (Exception e)
-           //{
-           //    Console.WriteLine($"{e.Message}");
-           //}
+                      
             
             Console.WriteLine();
             Console.WriteLine("Press any key...");
@@ -24,12 +16,12 @@ namespace ConsoleAppLab2_4
 
         private static void Run()
         {
-            //new GuidExample().Run();
-            //new TimeExample().Run();
-            //new NestedAndTupleExample().Run();
+            new GuidExample().Run();
+            new TimeExample().Run();
+            new NestedAndTupleExample().Run();
             new B2B.B2b().Run();
-            //new DynamicExplore().Run();
-            //new CastExplore().Run();
+            new DynamicExplore().Run();
+            new CastExplore().Run();
         }
     }
 }
